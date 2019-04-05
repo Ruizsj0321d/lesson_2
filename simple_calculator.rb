@@ -14,6 +14,8 @@ elsif operation == "s"
   puts "The result is #{first_number - second_number}"
 elsif operation == "m"
   puts "The result is #{first_number * second_number}"
-else
+elsif operation == "d"
   puts "The result is #{first_number / second_number}"
+else
+  puts ">> Operation unknown"
 end
