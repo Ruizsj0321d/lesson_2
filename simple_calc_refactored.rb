@@ -83,7 +83,6 @@ loop do
 
   prompt("#{operation_to_message(operator)} the two numbers is...")
 
-
   result = case operator
           when 'a'
             number1 + number2
