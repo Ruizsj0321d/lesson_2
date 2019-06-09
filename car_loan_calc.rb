@@ -44,7 +44,6 @@ loop do
     end
   end
 
-
   annual_interest_rate = interest_rate.to_f / 100
   monthly_interest_rate = annual_interest_rate / 12
   months = years.to_i * 12
